@@ -1,0 +1,40 @@
+.body {
+    margin-top: 80px; /* To account for navbar height */
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: #ffffff;
+  }
+  
+  .info-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+  }
+  

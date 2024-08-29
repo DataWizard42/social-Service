@@ -1,0 +1,36 @@
+.footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .footer-logo img {
+    width: 80px; /* Adjust the size as needed */
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .footer-address {
+    max-width: 300px;
+    line-height: 1.6;
+  }
+  
